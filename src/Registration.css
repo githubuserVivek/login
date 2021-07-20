@@ -1,66 +1,71 @@
-.login_main {
+.registration_main_body {
   display: grid;
-  height: 100vh;
   place-items: center;
+  height: 90vh;
 }
-.login_body {
+
+.secondary_body {
   display: flex;
-  height: 77vh;
+  height: 80 vh;
   width: 70vw;
   box-shadow: 0px 2px 3px 2px rgb(112 111 111);
 }
 
-.left_body {
-  /* background-color: brown; */
-  flex: 0.3;
-  height: 80vh;
-  /* width: 30vw; */
-}
-
-.left_body > img {
-  height: 77vh;
-  width: 36vw;
-}
-
-.right_body {
+.registraion_left {
   flex: 0.7;
-  flex-direction: column;
-  width: 70vh;
+  height: 80vh;
   overflow-y: auto;
+  flex-direction: column;
 }
 
-.right_body_field > form {
+.registraion_left > form {
   display: flex;
   flex-direction: column;
   width: 30vw;
   margin-top: 100px;
-  /* border-bottom: 1px solid black; */
 }
 
 .icon {
   display: flex;
   align-items: center;
 }
+
 .icon > input {
   border: none;
   outline: none;
   width: 100%;
   height: 34px;
   margin-left: 20px;
-  border-bottom: 0.2px solid rgb(163, 157, 157);
+  border-bottom: 0.2px solid rgba(134, 129, 129, 0.425);
 }
 
 .icon > input:hover {
-  background-color: rgb(236, 236, 236);
+  background-color: rgb(199, 193, 193);
 }
 
-.right_body_field > h2 {
+.registraion_left > h2 {
   margin-top: 10px;
   padding: 10px;
   font-size: 50px;
 }
 
+.registration_right {
+  background-color: rgb(203, 203, 214);
+  flex: 0.3;
+  height: 80vh;
+  /* min-width: 100px; */
+}
+
+.registration_right > img {
+  height: 80vh;
+  /* min-width: 80px; */
+}
+
 .login_button {
   margin-top: 50px;
+  margin-left: 10px;
+}
+
+.registraion_left > form {
   margin-left: 10px;
 }

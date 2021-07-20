@@ -8,7 +8,7 @@ function Login() {
     <div className="login_main">
       <div className="login_body">
         <div className="left_body">
-          <img src="image.jpg" />
+          <img src="image.jpg" alt="img" />
         </div>
         <div className="right_body">
           <div className="right_body_field">
